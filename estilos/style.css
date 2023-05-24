@@ -33,9 +33,29 @@ main{
 }
 
 #tela{
-    position: absolute;
+    position: relative;
     left: 22px;
     top: 80px;
     width: 267px;
     height: 472px;
 }
+
+#sociais{
+    text-align: right;
+}
+
+#sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
+    box-sizing: border-box;
+}
+
+#sociais img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    transition: transform .3s, border .2s;
+}
+
